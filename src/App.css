@@ -1,0 +1,452 @@
+* {
+    text-decoration: none !important;
+    /* font-family: 'Roboto', sans-serif !important; */
+    font-family: "Playfair Display", serif;
+    list-style: none;
+    box-sizing: content-box;
+}
+
+
+/* ------------------------------  header -------------- */
+
+
+
+/* - - - - - - - - - - - - - - - - - - - - - - - -  Garage */
+
+.bg-lite {
+    background-color: #000000;
+}
+
+.text-color {
+    color: #929090 !important;
+}
+
+/* .box{
+    background-color: #fc3d5336;
+    border: dashed #fc3d54;
+} */
+
+.fs-18 {
+    font-size: 18px;
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+
+.fs-40 {
+    font-size: 40px;
+}
+
+.fs-50 {
+    font-size: 50px;
+}
+
+.f-color {
+    color: #000000c7;
+    font-weight: 500 !important;
+}
+
+.col-4 {
+    flex: 0 0 auto;
+    width: calc(33.33333333% - 32px) !important;
+}
+
+.bor {
+    border-radius: 10px 10px 10px 10px !important;
+    overflow: hidden;
+
+}
+
+.details:hover {
+    cursor: pointer;
+    color: #1B1A55 !important;
+    transition: all 0.3s ease-in-out;
+}
+
+.box-1 {
+    width: 500px;
+    /* height: 600px; */
+    border: 1px solid #d3071f;
+    background-color: #000000;
+    color: #d3071f;
+    border-radius: 10px;
+    /* box-shadow: 0px 0px 10px #7FC7D9; */
+    padding: 30px;
+}
+
+.in-gov {
+    border: 1px solid #d3071f;
+}
+
+.ptb {
+    padding: 70px 0;
+}
+
+.button {
+    width: 30%;
+    background-color: #d3071f;
+    border-radius: 10px !important;
+    border: none;
+    color: white;
+    padding: 5px;
+}
+
+Form span {
+    color: #d3071f;
+}
+
+/* .img-box {
+    cursor: pointer;
+    transform: scale(1);
+    overflow: hidden;
+    height: 300px !important;
+} */
+
+.img-box {
+    overflow: hidden;
+    height: 200px !important;
+    filter: grayscale(100%);
+    transition: .5s ease-in-out;
+}
+
+.box:hover .img-box {
+    filter: grayscale(0);
+    /* transform: scale(1.2);
+    overflow: hidden; */
+    transition: .5s ease-in-out;
+}
+
+.box {
+    height: 350px !important;
+    overflow: hidden;
+    cursor: pointer;
+    border: 1px solid #d3071f;
+    transition: all .5s ease-in-out;
+}
+
+.box:hover {
+    box-shadow: 0px 0px 10px rgba(160, 158, 158, 0.315) !important;
+    transition: all .5s ease-in-out;
+}
+
+.pos-rel {
+    position: relative;
+}
+
+
+.icon-color {
+    color: #d3071f;
+}
+
+.service {
+    background-color: #d3071f;
+    color: white !important;
+    padding: 10px;
+}
+
+.service:hover {
+    background-color: #f85467;
+    transition: all 0.3s ease-in-out;
+}
+
+.hov:hover {
+    color: #d3071f !important;
+    transition: all 0.3s ease-in-out;
+}
+
+.pos-sticky {
+    position: sticky;
+    z-index: 999;
+}
+
+
+.line-word {
+    line-height: 30px;
+    /* word-spacing: 10px 10px; */
+}
+
+.pos-ab {
+    position: absolute;
+    top: 45%;
+}
+
+
+.main-img {
+    background-image: url("./Garage Img/main.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+}
+
+.black-box {
+    background: #000000af;
+    width: 50%;
+}
+
+.bn-btn {
+    background-color: #d3071f;
+    padding: 15px 30px;
+    border-radius: 10px;
+    margin-top: 15px;
+    transition: all 0.5s ease-in-out;
+}
+
+.bn-btn:hover {
+    background-color: #f7142e;
+    transition: all 0.5s ease-in-out;
+}
+
+.pos-about {
+    position: absolute;
+    top: 153px;
+    left: 156px;
+}
+
+.home-red {
+    color: #d3071f !important;
+}
+
+
+
+
+.red-card {
+    background-color: #d3071f;
+    color: white !important;
+    padding: 50px 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+.red-card:hover {
+    transform: translate3d(0px, -15px, 0.01px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.box-card {
+    background-color: #ffffff;
+    color: black;
+    /* height: 300px; */
+    padding: 50px 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+.box-card:hover {
+    background-color: #d3071f;
+    color: white;
+    padding: 50px 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    transform: translate3d(0px, -15px, 0.01px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+    transition: all 0.3s ease-in-out;
+}
+
+.box-card:hover .icon-color {
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+.ps-sticky {
+    position: fixed !important;
+    background-color: #020202;
+    box-shadow: 0px 0px 5px #dfdddd;
+    z-index: 999;
+    top: 0;
+}
+
+.bg-body-tertiary {
+    background-color: white;
+    opacity: none;
+}
+
+.card {
+    border: 1px solid #d3071f !important;
+    background-color: #000000 !important;
+    color: #fff !important;
+}
+
+.mt-120 {
+    margin-top: 120px !important;
+}
+
+.footer-cav {
+    border-radius: 80px 80px 0px 0px;
+}
+
+.height {
+    height: 70px;
+}
+
+.tx-img-bg {
+    padding: 121px 0 0;
+}
+
+.tx-img1 {
+    background-image: url('https://duruthemes.com/demo/html/carex/img/about.jpg');
+    width: 100%;
+    height: 553px;
+    background-size: cover;
+}
+
+.service-img {
+    background-image: url("./Garage Img/main.jpg");
+    width: 100%;
+    height: 553px;
+    background-size: cover;
+}
+
+.footer-color {
+    background-color: #d3071f !important;
+}
+
+.d-end{
+    display: flex;
+    justify-content: end;
+}
+
+.d-flexx{
+    display: flex;
+    flex-wrap: wrap;
+}
+.navbar-toggler{
+    background-color: #d3071f !important;
+    /* color: #000000 !important; */
+}
+
+
+@media (max-width: 376.98px) {
+    .black-box h1 {
+        font-size: 14px;
+    }
+}
+
+/* @media (max-width: 575.98px) {
+    .black-box h1 {
+        font-size: 16px;
+    }
+} */
+
+/* X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .fs-40 {
+        font-size: 30px;
+    }
+
+    .fs-50 {
+        font-size: 35px;
+    }
+
+    .black-box {
+        background: #000000af;
+        width: 50%;
+    }
+
+    .black-box h1 {
+        font-size: 16px;
+    }
+
+    
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    .black-box {
+        font-size: 14px;
+        width: 90%;
+    }
+
+    .black-box .h6 {
+        font-size: 16px;
+    }
+
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    .d-end{
+        justify-content: center;
+    }
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {}
+
+/* X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {}
+
+
+
+
+
+
+
+
+
+
+
+.parentLoader {
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 70px 0;
+
+}
+
+.loader {
+    width: 60px;
+    height: 50px;
+    border: 3px dotted #FFF;
+    border-style: solid solid dotted dotted;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    box-sizing: border-box;
+    animation: rotation 2s linear infinite;
+}
+
+.loader::after {
+    content: '';
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    border: 3px dotted #d3071f;
+    border-style: solid solid dotted;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    animation: rotationBack 1s linear infinite;
+    transform-origin: center center;
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotationBack {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(-360deg);
+    }
+}
