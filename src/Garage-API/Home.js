@@ -12,6 +12,7 @@ import img22 from "../Garage Img/22.jpg";
 import img55 from "../Garage Img/55.jpg";
 import img77 from "../Garage Img/77.webp";
 
+
 import { RiServiceFill } from "react-icons/ri";
 import { Col, Container, Row } from "react-bootstrap";
 import { FaLongArrowAltRight } from "react-icons/fa";
@@ -70,15 +71,18 @@ const Home = () => {
                 <PiArrowBendRightDownFill className="fs-md-3 fs-6 mt-2 ms-1 icon-color" />
               </h6>
               <h1 className="fw-blod mb-2">
-                INDIA’<span className="icon-color">S</span> MOST TRUSTED AUTO
-                BODY REPAIR EXPERTS.
+                INDIA’<span className="icon-color">S</span> MOST TRUSTED AUTO BODY REPAIR EXPERTS.
               </h1>
             </div>
           </div>
         </Row>
       </Container>
 
+
+
+
       {/* ABout US */}
+
 
       <Container fluid className="pt-md-5 pt-3 pb-md-5 pb-3 bg-lite text-white">
         <Container className="">
@@ -101,10 +105,8 @@ const Home = () => {
                 <PiArrowBendRightDownFill className="fs-3 mt-2 ms-1 icon-color" />
               </h6> */}
               <h1 className="fs-40">
-                <span className="icon-color fs-3 fs-md-2 fw-bolder">
-                  AUTO<span className="text-white  fw-normal">LOGIC</span>
-                </span>{" "}
-                Car <br className="d-lg-block d-none " /> Repair & Service
+                <span className='icon-color fs-3 fs-md-2 fw-bolder'>AUTO<span className='text-white  fw-normal'>LOGIC</span></span> Car{" "}
+                <br className="d-lg-block d-none " /> Repair & Service
               </h1>
               <p className="line-word text-color ">
                 Car repair quisque sodales dui ut varius vestibulum drana tortor
@@ -120,11 +122,13 @@ const Home = () => {
         </Container>
       </Container>
 
+
       {/* Static service card */}
 
-      <Container fluid className="pt-md-5 pt-3 pb-md-0 text-white bg-lite">
+      <Container fluid className="pt-md-5 pt-3 pb-md-0 text-white bg-lite" >
         <Container>
-          <Row className="pb-4">
+
+        <Row className="pb-4">
             <div className="text-white text-center pb-md-1">
               <h1 className="fs-50">
                 Our Services{" "}
@@ -133,150 +137,172 @@ const Home = () => {
             </div>
           </Row>
           <Row className="">
-            {service.map((el, index) => {
-              return (
-                <div className="col-lg-3 col-sm-6 col-12 pt-3">
-                  <Card className="p-0 box ">
-                    <div className="img-box h-50">
-                      <Card.Img
-                        variant="top"
-                        className="p-0 c-img"
-                        src={img22}
-                      />
-                    </div>
+              {service.map((el, index) => {
+                return (
+                  <div
+                    className="col-lg-3 col-sm-6 col-12 pt-3"
+                    
+                  >
+                  
+                    <Card className="p-0 box ">
+                      <div className="img-box h-50">
 
-                    <Card.Body>
-                      <div className="icon-color ">
-                        <Card.Title className="pt-1 fw-bold  text-uppercase">
-                          oil changing
-                        </Card.Title>
+                        <Card.Img variant="top" className="p-0 c-img" src={img22} />
+
                       </div>
-                      <p className="pt-1  mb-2 fs-16 text-color">
-                        replacement of old oil filter with new filter and
-                        replacement of old oil with new oil.
-                      </p>
-                      <Card.Text className="pt-1 h5 ">$ 499 ~ only</Card.Text>
-                    </Card.Body>
+                      
 
-                    <hr className="icon-color" />
-                    <div
-                      href="/allservice"
-                      className="text-white hov fw-bold ps-3 pb-2"
-                    >
-                      More Details..!
-                    </div>
-                  </Card>
-                </div>
-              );
-            })}
+                      <Card.Body>
+                        <div className="icon-color ">
 
-            {service.map((el, index) => {
-              return (
-                <div className="col-lg-3 col-sm-6 col-12 pt-3">
-                  <Card className="p-0 box ">
-                    <div className="img-box h-50">
-                      <Card.Img
-                        variant="top"
-                        className="p-0 c-img"
-                        src={img55}
-                      />
-                    </div>
-
-                    <Card.Body>
-                      <div className="icon-color ">
-                        <Card.Title className="pt-1 fw-bold  text-uppercase">
-                          car wash
-                        </Card.Title>
+                          <Card.Title className="pt-1 fw-bold  text-uppercase">
+                            oil changing
+                          </Card.Title>
+                        </div>
+                        <p className='pt-1  mb-2 fs-16 text-color'>
+                          replacement of old oil filter with new filter and replacement of old oil with new oil.
+                          
+                        </p>
+                        <Card.Text className='pt-1 h5 '>$ 499 ~ only</Card.Text>
+                      </Card.Body>
+                      
+                      <hr className="icon-color" />
+                      <div
+                        href="/allservice"className="text-white hov fw-bold ps-3 pb-2">
+                        More Details..!
                       </div>
-                      <p className="pt-1  mb-2 fs-16 text-color">
-                        replacement of old oil filter with new filter and
-                        replacement of old oil with new oil.
-                      </p>
-                      <Card.Text className="pt-1 h5 ">$ 699 ~ only</Card.Text>
-                    </Card.Body>
+                    </Card>
+                  </div>
+                );
+              })}
+            
 
-                    <hr className="icon-color" />
-                    <div
-                      href="/allservice"
-                      className="text-white hov fw-bold ps-3 pb-2"
-                    >
-                      More Details..!
-                    </div>
-                  </Card>
-                </div>
-              );
-            })}
+            
+              {service.map((el, index) => {
+                return (
+                  <div
+                    className="col-lg-3 col-sm-6 col-12 pt-3"
+                    
+                  >
+                  
+                    <Card className="p-0 box ">
+                      <div className="img-box h-50">
 
-            {service.map((el, index) => {
-              return (
-                <div className="col-lg-3 col-sm-6 col-12 pt-3">
-                  <Card className="p-0 box ">
-                    <div className="img-box h-50">
-                      <Card.Img
-                        variant="top"
-                        className="p-0 c-img"
-                        src={img1}
-                      />
-                    </div>
+                        <Card.Img variant="top" className="p-0 c-img" src={img55} />
 
-                    <Card.Body>
-                      <div className="icon-color ">
-                        <Card.Title className="pt-1 fw-bold  text-uppercase">
-                          engine repair
-                        </Card.Title>
                       </div>
-                      <p className="pt-1  mb-2 fs-16 text-color">
-                        replacement of old oil filter with new filter and
-                        replacement of old oil with new oil.
-                      </p>
-                      <Card.Text className="pt-1 h5 ">$ 999 ~ only</Card.Text>
-                    </Card.Body>
+                      
 
-                    <hr className="icon-color" />
-                    <div className="text-white hov fw-bold ps-3 pb-2">
-                      More Details..!
-                    </div>
-                  </Card>
-                </div>
-              );
-            })}
+                      <Card.Body>
+                        <div className="icon-color ">
 
-            {service.map((el, index) => {
-              return (
-                <div className="col-lg-3 col-sm-6 col-12 pt-3">
-                  <Card className="p-0 box ">
-                    <div className="img-box h-50">
-                      <Card.Img
-                        variant="top"
-                        className="p-0 c-img"
-                        src={img77}
-                      />
-                    </div>
-
-                    <Card.Body>
-                      <div className="icon-color ">
-                        <Card.Title className="pt-1 fw-bold  text-uppercase">
-                          full service
-                        </Card.Title>
+                          <Card.Title className="pt-1 fw-bold  text-uppercase">
+                            car wash
+                          </Card.Title>
+                        </div>
+                        <p className='pt-1  mb-2 fs-16 text-color'>
+                          replacement of old oil filter with new filter and replacement of old oil with new oil.
+                          
+                        </p>
+                        <Card.Text className='pt-1 h5 '>$ 699 ~ only</Card.Text>
+                      </Card.Body>
+                      
+                      <hr className="icon-color" />
+                      <div
+                        href="/allservice"className="text-white hov fw-bold ps-3 pb-2">
+                        More Details..!
                       </div>
-                      <p className="pt-1  mb-2 fs-16 text-color">
-                        replacement of old oil filter with new filter and
-                        replacement of old oil with new oil.
-                      </p>
-                      <Card.Text className="pt-1 h5 ">$ 1999 ~ only</Card.Text>
-                    </Card.Body>
+                    </Card>
+                  </div>
+                );
+              })}
+            
 
-                    <hr className="icon-color" />
-                    <div className="text-white hov fw-bold ps-3 pb-2">
-                      More Details..!
-                    </div>
-                  </Card>
-                </div>
-              );
-            })}
+            
+              {service.map((el, index) => {
+                return (
+                  <div
+                    className="col-lg-3 col-sm-6 col-12 pt-3"
+                    
+                  >
+                  
+                    <Card className="p-0 box ">
+                      <div className="img-box h-50">
+
+                        <Card.Img variant="top" className="p-0 c-img" src={img1} />
+
+                      </div>
+                      
+
+                      <Card.Body>
+                        <div className="icon-color ">
+
+                          <Card.Title className="pt-1 fw-bold  text-uppercase">
+                            engine repair
+                          </Card.Title>
+                        </div>
+                        <p className='pt-1  mb-2 fs-16 text-color'>
+                          replacement of old oil filter with new filter and replacement of old oil with new oil.
+                          
+                        </p>
+                        <Card.Text className='pt-1 h5 '>$ 999 ~ only</Card.Text>
+                      </Card.Body>
+                      
+                      <hr className="icon-color" />
+                      <div className="text-white hov fw-bold ps-3 pb-2">
+                        More Details..!
+                      </div>
+                    </Card>
+                  </div>
+                );
+              })}
+
+
+{service.map((el, index) => {
+                return (
+                  <div
+                    className="col-lg-3 col-sm-6 col-12 pt-3"
+                    
+                  >
+                  
+                    <Card className="p-0 box ">
+                      <div className="img-box h-50">
+
+                        <Card.Img variant="top" className="p-0 c-img" src={img77} />
+
+                      </div>
+                      
+
+                      <Card.Body>
+                        <div className="icon-color ">
+
+                          <Card.Title className="pt-1 fw-bold  text-uppercase">
+                            full service
+                          </Card.Title>
+                        </div>
+                        <p className='pt-1  mb-2 fs-16 text-color'>
+                          replacement of old oil filter with new filter and replacement of old oil with new oil.
+                          
+                        </p>
+                        <Card.Text className='pt-1 h5 '>$ 1999 ~ only</Card.Text>
+                      </Card.Body>
+                      
+                      <hr className="icon-color" />
+                      <div className="text-white hov fw-bold ps-3 pb-2" >
+                        More Details..!
+                      </div>
+                    </Card>
+                  </div>
+                );
+              })}
+            
           </Row>
+
         </Container>
       </Container>
+
+
+
 
       {/* Serive CARD  WITH Loop DATA MAP */}
 
@@ -303,10 +329,7 @@ const Home = () => {
                       <Card.Img
                         variant="top"
                         className="p-0"
-                        src={
-                          "https://garage-node-gioc.onrender.com/images/" +
-                          el.image
-                        }
+                        src={"https://garage-node-gioc.onrender.com/images/" + el.image}
                       />
                     </div>
                     <Card.Body className="">
@@ -315,12 +338,8 @@ const Home = () => {
                           {el.serviceName}
                         </Card.Title>
                       </div>
-                      <p className="pt-1  mb-2 fs-16 text-color">
-                        {el.decription}
-                      </p>
-                      <Card.Text className="pt-1 h5">
-                        ${el.cost} ~ only
-                      </Card.Text>
+                      <p className='pt-1  mb-2 fs-16 text-color'>{el.decription}</p>
+                      <Card.Text className='pt-1 h5'>${el.cost} ~ only</Card.Text>
                     </Card.Body>
 
                     <hr className="icon-color" />
@@ -337,6 +356,10 @@ const Home = () => {
           </Row>
         </Container>
       </Container>
+
+
+
+
 
       {/*   Our Process*/}
 
@@ -363,6 +386,7 @@ const Home = () => {
                   Car lorem quisque sodales the varius vestibulum felis.
                 </p>
               </div>
+
             </div>
             <div className="col-lg-3 col-md-6  mb-3 col-12">
               <div className="box-card">
@@ -376,7 +400,7 @@ const Home = () => {
               </div>
             </div>
 
-            <div className="col-lg-3 col-md-6  mb-3 col-12">
+            <div className="col-lg-3 col-md-6  mb-3 col-12" >
               <div className="box-card">
                 <h1 className="mb-3">
                   <MdCarCrash className="icon-color " />
@@ -408,6 +432,10 @@ const Home = () => {
           </Row>
         </Container>
       </Container>
+
+
+
+
 
       {/* What Customers Say*/}
 
