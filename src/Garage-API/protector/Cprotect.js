@@ -12,8 +12,15 @@ const Cprotect = (props) => {
         if (!token) {
             return history.push('/vehical')
         }
-        setTimeout(() => setIstoken(token), 1000)
+        setTimeout(() => setIstoken(token), 2000)
     }, [])
+
+    useEffect(() => {
+        setTimeout(() => {
+            console.log("Delayed for 1 second.");
+        }, "3000");
+    }, [])
+
 
     if (!istoken) {
         return <div className='parentLoader'>

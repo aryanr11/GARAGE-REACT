@@ -12,7 +12,7 @@ import { PiCertificate } from "react-icons/pi";
 
 import Slider from "react-slick";
 
-import img1 from "../Garage Img/1.jpg"
+import img1 from "../Garage Img/11.jpg"
 
 
 
@@ -24,19 +24,19 @@ const About = () => {
 
 
             {/* Main Img */}
-            <Container fluid className='mt-4  '>
+            <Container fluid className='pb-mb-5'>
                 <Row>
                     <div className='main-img d-flex align-items-center'>
                         <div className="black-box p-5 ms-4 text-white">
-                            <h6 className='fw-bold'>WELCOME TO <PiArrowBendRightDownFill className='fs-3 mt-2 ms-1 icon-color' /></h6>
-                            <h1>Care<span className='icon-color'>x</span> Car <br></br> Service & Repair</h1>
+                            <h6 className='fw-bold'>WELCOME TO <PiArrowBendRightDownFill className='fs-md-3 mt-2 ms-1 icon-color' /></h6>
+                            <h1><span className='icon-color'>AUTO</span><span>LOGIC</span> Car <br></br> Service & Repair</h1>
                         </div>
                     </div>
                 </Row>
             </Container>
 
 
-            {/* ABout US ✅✅*/}
+            {/* ABout US */}
             <Container fluid className='pt-md-5 pt-4 pb-md-5 pb-3 bg-lite text-white'>
                 <Container className=''>
                     {/* <h1 className='icon-color text-center mb-3 d-md-none d-block'>About Us</h1> */}
@@ -46,7 +46,7 @@ const About = () => {
                         </div>
                         <div className="col-md-6 p-lg-5 p-4">
                             <h6 className=' ps-2 fs-14'>ABOUT US <PiArrowBendRightDownFill className='fs-3 mt-2 ms-1 icon-color' /></h6>
-                            <h1 className='fs-40'>Care<span className='icon-color'>x</span> Car <br className='d-lg-block d-none ' /> Service & Repair</h1>
+                            <h1 className='fs-40'><span className='icon-color fs-3 fs-md-2 fw-bolder'>AUTO<span className='text-white fs-p1 fw-normal'>LOGIC</span></span> Car <br className='d-lg-block d-none ' /> Service & Repair</h1>
                             <p className='line-word text-color '>Car repair quisque sodales dui ut varius vestibulum drana tortor turpis porttiton tellus eu euismod nisl massa ut odio in the miss volume placerat urna, a lacinia eros nunta urna mauris, vehicula rutrum tempus in the interdum felis.</p>
                             <a href="/about-us" className="text-white fw-bold bn-btn">Read More <FaLongArrowAltRight /></a>
                         </div>
@@ -54,7 +54,8 @@ const About = () => {
                 </Container>
             </Container>
 
-            {/*   HOW WE WORK ✅✅*/}
+            {/*   HOW WE WORK*/}
+
             <Container fluid className='pt-lg-5 pt-3 pb-lg-5 pb-3 bg-lite'>
                 <Container>
                     <Row>
@@ -81,7 +82,7 @@ const About = () => {
                         <div className="col-lg-3 col-md-6  mb-3 col-12">
                             <div className="box-card">
                                 <h1 className='mb-3'><MdCarCrash className='icon-color' /></h1>
-                                <h2 className='mb-3 '>Get the Vehicle Repaired</h2>
+                                <h2 className='mb-3 '> Repaired Vehicle</h2>
                                 <p className=''>Car lorem quisque sodales the varius vestibulum felis.</p>
                             </div>
                         </div>

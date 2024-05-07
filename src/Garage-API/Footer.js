@@ -8,18 +8,18 @@ import { FaGooglePlusG } from "react-icons/fa";
 import { Link } from 'react-router-dom/cjs/react-router-dom.min';
 import { IoMdCheckmarkCircleOutline } from "react-icons/io";
 
-import imglogo from '../Garage Img/logo-light.png'
+import logo from '../Garage Img/spacex.svg'
 
 const Footer = () => {
     return (
         <div>
 
-            <Container fluid className='bg-lite text-white py-5  '>
+            <Container fluid className='bg-lite text-white py-5  ' id="alldown">
                 <Container>
                     <Row>
                         <div className="col-md-4 mt-3 text-center">
-                            <a href="/" ><img className='w-md-75 w-50 mb-4' src={imglogo} alt="" /></a>
-                            <p className='line-word text-color'>Carex imperdiet sapien porttito the bibenum ellentesue the commodo erat nesuen.</p>
+                            <a href="/" ><span className='icon-color fs-3 fs-md-2 fw-bolder'>AUTO<span className='text-white fs-p1 fw-normal'>LOGIC</span></span></a>
+                            <p className='line-word text-color'>AUTOLOGIC imperdiet sapien porttito the bibenum ellentesue the commodo erat nesuen.</p>
                                 <ul className='d-flex mb-0 ps-0 justify-content-center'>
                                     <li className=' list-unstyled fw-bold'><Link to="/" className=" fs-md-2 fs-6 hov text-white"><FaInstagram /></Link></li>
                                     <li className='ps-4 list-unstyled fw-bold'><Link to="/" className=" fs-md-2 fs-6 hov text-white"><FaFacebookF /></Link></li>

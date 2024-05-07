@@ -36,6 +36,7 @@ const Signup = () => {
                 "https://garage-node-gioc.onrender.com/technician/signup",
                 values
               )
+
               .then((res) => {
                 console.log(res.data.data);
                 history.push("/technician-login");

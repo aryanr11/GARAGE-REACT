@@ -9,6 +9,12 @@
 
 /* ------------------------------  header -------------- */
 
+.offcanvas{
+    background-color: #000000 !important;
+}
+.offcanvas-header .btn-close{
+    background-color: #ff001e;
+}
 
 
 /* - - - - - - - - - - - - - - - - - - - - - - - -  Garage */
@@ -29,7 +35,9 @@
 .fs-18 {
     font-size: 18px;
 }
-
+.fs-16{
+    font-size: 16px;
+}
 .fs-14 {
     font-size: 14px;
 }
@@ -44,7 +52,7 @@
 
 .f-color {
     color: #000000c7;
-    font-weight: 500 !important;
+    font-weight: 500 !important;    
 }
 
 .col-4 {
@@ -91,7 +99,13 @@
     color: white;
     padding: 5px;
 }
-
+.txt-red{
+    color: red !important;
+}
+.fnt-family{
+    
+    font-family:  sans;
+}
 Form span {
     color: #d3071f;
 }
@@ -116,15 +130,20 @@ Form span {
     overflow: hidden; */
     transition: .5s ease-in-out;
 }
-
+.h-50{
+    height: 40%;
+}
 .box {
-    height: 350px !important;
+    height: 420px !important;
+    background-attachment: fixed;
     overflow: hidden;
     cursor: pointer;
     border: 1px solid #d3071f;
     transition: all .5s ease-in-out;
 }
-
+.c-img{
+    height: 200px !important;
+}
 .box:hover {
     box-shadow: 0px 0px 10px rgba(160, 158, 158, 0.315) !important;
     transition: all .5s ease-in-out;
@@ -136,7 +155,7 @@ Form span {
 
 
 .icon-color {
-    color: #d3071f;
+    color: #d3071f !important;
 }
 
 .service {
@@ -173,7 +192,7 @@ Form span {
 
 
 .main-img {
-    background-image: url("./Garage Img/main.jpg");
+    background-image: url("./Garage Img/car main.webp");
     width: 100%;
     height: 100vh;
     background-size: cover;
@@ -245,7 +264,7 @@ Form span {
     overflow: hidden;
     transform: translate3d(0px, -15px, 0.01px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
     transform-style: preserve-3d;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;   
 }
 
 .box-card:hover .icon-color {
@@ -255,12 +274,18 @@ Form span {
 
 .ps-sticky {
     position: fixed !important;
-    background-color: #020202;
-    box-shadow: 0px 0px 5px #dfdddd;
+    background-color: hsl(0, 0%, 1%);
     z-index: 999;
     top: 0;
 }
+.shadow-1{
+    box-shadow: 0px 0px 10px 2px #d3071f89 !important;
+    transition: all ease-in-out .4s;
+}
 
+.fs-p1{
+    font-family: cursive !important;
+}
 .bg-body-tertiary {
     background-color: white;
     opacity: none;
@@ -319,12 +344,15 @@ Form span {
     background-color: #d3071f !important;
     /* color: #000000 !important; */
 }
-
+.hi-vh{
+    height: 100%;
+}
 
 @media (max-width: 376.98px) {
     .black-box h1 {
         font-size: 14px;
     }
+    
 }
 
 /* @media (max-width: 575.98px) {
@@ -373,6 +401,7 @@ Form span {
     .d-end{
         justify-content: center;
     }
+    
 }
 
 /* Large devices (desktops, less than 1200px) */

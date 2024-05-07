@@ -75,7 +75,7 @@ function App() {
             </Tprotect>
           </Route>
 
-          <Route path="/all/service">
+          <Route path="/allservice">
             <Header />
               <Allservice></Allservice>
             <Footer />

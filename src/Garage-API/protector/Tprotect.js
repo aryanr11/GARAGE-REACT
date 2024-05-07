@@ -9,8 +9,14 @@ const Tprotect = (props) => {
         if (!token) {
             return history.push('/service')
         }
-        // setTimeout(() => setIstoken(token), 1000)
+        setTimeout(() => setIstoken(token), 3000)
         setIstoken(token)
+    }, [])
+
+    useEffect(() => {
+        setTimeout(() => {
+            console.log("Delayed for 1 second.");
+        }, "3000");
     }, [])
 
     if (!istoken) {

@@ -13,6 +13,11 @@ const Login = () => {
     password: Yup.string().required(),
   });
 
+  const logout = () => {
+    localStorage.removeItem("techniciantoken");
+    history.push("/technician-signup");
+  };
+
   return (
     <div className="d-flex justify-content-center align-items-center mt-120 mb-5 ms-3 me-3">
       <div className="box-1">
@@ -32,6 +37,7 @@ const Login = () => {
                 "https://garage-node-gioc.onrender.com/technician/login",
                 values
               )
+
               .then((res) => {
                 console.log(res.data);
                 localStorage.setItem("techniciantoken", res.data.token);
@@ -86,6 +92,12 @@ const Login = () => {
                 <span className="icon-color">Please Signup</span>
               </Link>
             </p>
+
+            <div className="d-flex justify-content-center">
+              <button type="" className="button" onClick={logout}>
+                Log Out
+              </button>
+            </div>
           </Form>
         </Formik>
       </div>

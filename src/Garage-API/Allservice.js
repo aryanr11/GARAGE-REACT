@@ -1,8 +1,8 @@
 import React, { useEffect, useState, Component } from "react";
 import { Link, useHistory } from "react-router-dom/cjs/react-router-dom.min";
 
-import img from "../Garage Img/main.jpg";
-import img4 from "../Garage Img/4.jpg";
+import img from "../Garage Img/car main.webp";
+import img4 from "../Garage Img/44.jpg";
 
 import { Card, Col, Container, Row } from "react-bootstrap";
 import { PiArrowBendRightDownFill } from "react-icons/pi";

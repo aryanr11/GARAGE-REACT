@@ -5,7 +5,7 @@ import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import { Container, Row } from "react-bootstrap";
 
-import img3 from "../../Garage Img/3.jpg";
+import img3 from "../../Garage Img/33.jpg";
 
 const Technician = () => {
   const [appoinment, setAppoinment] = useState([]);
